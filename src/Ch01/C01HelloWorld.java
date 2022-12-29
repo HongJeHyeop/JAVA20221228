@@ -9,5 +9,6 @@ public class C01HelloWorld // 클래스 영역 - 객체지향 문법적용 단�
 	public static void main(String[] args) // 메서드(Method) 영역 - 절차지향 문법적용 단위 
 	{
 		System.out.println("HELLO WORLD");
+		System.out.println("HELLO WORLD");
 	}
 }
