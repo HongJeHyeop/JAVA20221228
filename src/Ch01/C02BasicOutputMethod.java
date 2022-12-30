@@ -1,4 +1,4 @@
-package Ch02info;
+package Ch01;
 
 public class C02BasicOutputMethod {
 
