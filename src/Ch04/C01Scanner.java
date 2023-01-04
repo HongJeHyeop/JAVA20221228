@@ -13,7 +13,7 @@ public class C01Scanner {
 		int num4 = sc.nextInt();
 		int sum = num1 + num2 + num3 + num4;
 		System.out.printf("%d + %d + %d + %d = %d \n", num1, num2, num3, num4, sum);
-		
+		sc.close();
 	}
 
 }
