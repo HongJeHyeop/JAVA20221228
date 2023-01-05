@@ -1,6 +1,8 @@
 
 package Ch05;
 
+import java.util.Scanner;
+
 public class C01연산자 {
 	public static void main(String[] args) {
 		
@@ -16,7 +18,14 @@ public class C01연산자 {
 		
 		// 대입 연산자 : 공간 = 값(우선처리)
 		// 문제 : 두 정수를 입력받아 두수의 합 / 곱 / 차를 출력하는 프로그램을 만듭니다. (Scanner사용)
-				
+//		
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		int sum = a + b;
+//		int mul = a * b;
+//		int asd = a - b;
+//		System.out.printf("두 수의 합은 : %d, 곱은 : %d, 차는 : %d", sum, mul, asd);
 // -----------------------------------------------------------------------------------------------
 		
 		// 복합 대입 연산자
@@ -82,7 +91,7 @@ public class C01연산자 {
 		// 삼항 연산자 
 		// (조건식) ? 참인경우 실행코드 : 거진인경우 실행코드;
 		
-//		int score = 85;
+		int score = 85;
 		int kor = 85;
 		int eng = 60;
 		char grade = (kor>80 && eng>80) ? 'A' : 'B';
