@@ -26,7 +26,6 @@ public class C08LocalVarTest {
 		LocalVar obj = new LocalVar();
 		
 		obj.func1();
-		
-		
+
 	}
 }
