@@ -1,6 +1,6 @@
 package Ch09;
 
-public class C04Test {
+public class Test {
 	private String name;
 	private int age;
 	private short grade;

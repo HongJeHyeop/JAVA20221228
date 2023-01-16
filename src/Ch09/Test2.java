@@ -1,6 +1,6 @@
 package Ch09;
 
-public class C05Test2 {
+public class Test2 {
 	public static void main(String[] args) {
 		
 		Student s = new Student();
