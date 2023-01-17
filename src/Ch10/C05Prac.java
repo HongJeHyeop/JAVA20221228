@@ -1,4 +1,4 @@
-package Array;
+package Ch10;
 
 import java.util.Scanner;
 
@@ -70,10 +70,10 @@ public class C05Prac {
 		int sum = 0;
 		
 		// 점수 입력 부분
-		for (int i = 1; i <= student.length; i++) {
-			System.out.print(i + "학생 점수입력 : ");
-			for (int j = 0; j < student[i - 1].length; j++) {
-				student[i - 1][j] = sc.nextInt();
+		for (int i = 0; i <= student.length; i++) {
+			System.out.print((i+1) + "학생 점수입력 : ");
+			for (int j = 0; j < student[i].length; j++) {
+				student[i][j] = sc.nextInt();
 			}
 		}
 		System.out.println("------------------");
